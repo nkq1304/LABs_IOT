@@ -91,11 +91,11 @@ public class MainActivity extends AppCompatActivity {
                 if(topic.contains("cambien1")){
                     txtTemp.setText(message.toString() + "°C");
                 }
+                else if(topic.contains("cambien2")){
+                    txtLight.setText(message.toString() + " lux");
+                }
                 else if(topic.contains("cambien3")){
                     txtHumi.setText(message.toString() + "%");
-                }
-                else if(topic.contains("cambien2")){
-                    txtHumi.setText(message.toString() + " lux");
                 }
                 else if(topic.contains("nutnhan1")){
                     if(message.toString().equals("1")){
@@ -107,10 +107,10 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(topic.contains("nutnhan2")){
                     if(message.toString().equals("1")){
-                        btnLED.setOn(true);
+                        btnPUMP.setOn(true);
                     }
                     else{
-                        btnLED.setOn(false);
+                        btnPUMP.setOn(false);
                     }
                 }
             }

@@ -34,12 +34,26 @@
 
       </TextView>
     <TextView
+        android:id="@+id/txtLight"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:background="#FF5733"
+        android:text="20lux"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+    </TextView>
+    <TextView
         android:id="@+id/txtHumidity"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="20"
         android:background="#FFB6C1"
-        android:text="70%"
+        android:text="30%"
         android:textSize="50dp"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -47,20 +61,7 @@
         android:layout_margin="20dp"
         >
           </TextView>
-    <TextView
-        android:id="@+id/txtLight"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="20"
-        android:background="#FF5733"
-        android:text="70lux"
-        android:textSize="50dp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:gravity="center"
-        android:layout_margin="20dp"
-        >
-      </TextView>
+
 
   </LinearLayout>
   <LinearLayout

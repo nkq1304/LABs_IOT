@@ -8,7 +8,7 @@ from simple_ai import *
 
 AIO_FEED_ID = ["nutnhan1","nutnhan2"]
 AIO_USERNAME = "kimquynh1304"
-AIO_KEY = "aio_ySFM22Bc7D9qkBc5uMbYsXG5d485"
+AIO_KEY = "aio_gJib69ZYqycZilN45hRtWsVBpI2l"
 
 def connected(client):
     print("Ket noi thanh cong ...")

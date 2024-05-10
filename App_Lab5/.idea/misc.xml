@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/KQ_HK232/IOT/Labs/Source_code/App_Lab5/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/KQ_HK232/IOT/Labs/Source_code/App_Lab5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17552083333333332" />
+        <entry key="..\:/KQ_HK232/IOT/Labs/Source_code/App_Lab5/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17552083333333332" />
+        <entry key="..\:/KQ_HK232/IOT/Labs/Source_code/App_Lab5/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
